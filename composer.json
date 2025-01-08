@@ -1,5 +1,5 @@
 {
-    "name": "dnadesign/silverstripe-elemental-virtual",
+    "name": "pikselin/silverstripe-elemental-virtual",
     "description": "Adds ability for Elemental to share content blocks between pages",
     "type": "silverstripe-vendormodule",
     "keywords": [
