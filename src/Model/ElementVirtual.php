@@ -172,6 +172,7 @@ class ElementVirtual extends BaseElement
     public function forTemplate($holder = true)
     {
         if ($linked = $this->LinkedElement()) {
+            $this->extend('updateLinkedContent', $linked);
             return $linked->forTemplate($holder);
         }
         return null;
