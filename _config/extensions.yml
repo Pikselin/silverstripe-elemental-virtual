@@ -7,7 +7,7 @@ DNADesign\Elemental\Models\BaseElement:
     - DNADesign\ElementalVirtual\Extensions\BaseElementExtension
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
-    - "dnadesign/silverstripe-elemental-virtual:css/elemental-admin.css"
+    - "pikselin/silverstripe-elemental-virtual:css/elemental-admin.css"
 SilverStripe\CMS\Controllers\ContentController:
   extensions:
     - DNADesign\ElementalVirtual\Extensions\VirtualElementalContentControllerExtension
